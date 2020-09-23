@@ -50,6 +50,15 @@ layout: default
         </ul>
     </div>
     <div class="col-sm-4">
+        <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
+        <h3>Endereço</h3>
+            <p>
+                {{ site.contact.address_line1 }}<br />
+                {{ site.contact.address_line2 }}<br />
+                {{ site.contact.address_line3 }}
+            </p>
+    </div>
+    <div class="col-sm-4">
         <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
         <h3>Horário de Atendimento</h3>
         <table>
@@ -68,15 +77,6 @@ layout: default
                 </tr>
             </tbody>
         </table>
-    </div>
-    <div class="col-sm-4">
-        <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-        <h3>Endereço</h3>
-            <p>
-                {{ site.contact.address_line1 }}<br />
-                {{ site.contact.address_line2 }}<br />
-                {{ site.contact.address_line3 }}
-            </p>
     </div>
 </div>
 <!-- End 3 columns -->
@@ -242,5 +242,52 @@ layout: default
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.0098001043157!2d-46.80192668543962!3d-23.639820070378462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce549c6a5622a5%3A0x21bb68eae9bb74fa!2sEstr.%20Kizaemon%20Takeuti%2C%202487%20-%20Parque%20Sao%20Joaquim%2C%20Tabo%C3%A3o%20da%20Serra%20-%20SP%2C%2006775-003!5e0!3m2!1sen!2sbr!4v1600876831309!5m2!1sen!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
 <!-- End Map -->
+
+</div>
+
+<div id='contact'>
+
+  <!-- Start 3 columns -->
+  <div class="three-shade-col">
+      <div class="col-sm-4">
+          <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
+          <h3>Contato</h3>
+          <ul>
+              {% if site.contact.phone %}<li><strong>Telefone:</strong> {{ site.contact.phone }}</li>{% endif %}
+              {% if site.contact.emergency %}<li><strong>WhatsApp:</strong> {{ site.contact.emergency }}</li>{% endif %}
+              {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
+          </ul>
+      </div>
+      <div class="col-sm-4">
+          <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
+          <h3>Endereço</h3>
+              <p>
+                  {{ site.contact.address_line1 }}<br />
+                  {{ site.contact.address_line2 }}<br />
+                  {{ site.contact.address_line3 }}
+              </p>
+      </div>
+      <div class="col-sm-4">
+          <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
+          <h3>Horário de Atendimento</h3>
+          <table>
+              <tbody>
+                  <tr>
+                      <td>Segunda à Sexta</td>
+                      <td>{{ site.monday_friday }}</td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td>{{ site.saturday }}</td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td>{{ site.sunday }}</td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+  <!-- End 3 columns -->
 
 </div>
