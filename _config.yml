@@ -1,30 +1,30 @@
 # Site settings
-title: DentistSmile | Dental Jekyll Theme
-description: "A responsive Jekyll theme for dental clinics."
+title: "Oliveira e Alves Advocacia | Assessoria Jurídica"
+description: "Oliveira e Alves Advocacia | Assessoria Jurídica"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: svg/min/logo.svg
 
 # Hero
-hero: 
+hero:
     hero_img: hero.jpg
-    hero_title: DentistSmile
-    hero_description: A responsive Jekyll theme for dental clinics.
+    hero_title: Oliveira e Alves Advocacia
+    hero_description: "Oliveira e Alves Advocacia | Assessoria Jurídica"
 
 # Contact form
 api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: 932 50 540
-    emergency: 931 53 234
-    email: contact@yoursite.com
-    address: Von schroeders 273, <br> Viña del mar - Chile
+    phone: +55 11 95964-3135
+    emergency: +55 11 95964-3135
+    email: oliveiraealves@gmail.com
+    address: "Estr. Kizaemon Takeuti, nº 2487, Conj. 3, Taboão da Serra/SP, 06775-003"
 
 # Opening hours
-monday_friday: 9:00 – 18:00
-saturday: 10:00 – 17:00
-sunday: 10:00 – 15:00
+monday_friday: "9:00 às 12:00 e 13:00 às 18:00"
+#saturday: 10:00 – 17:00
+#sunday: 10:00 – 15:00
 
 # Testimonials
 testimonials:
@@ -33,7 +33,7 @@ testimonials:
 # Map
 map:
     zoom: 17
-    address: Von schroeders 273, Viña del mar, Chile
+    address: "Estr. Kizaemon Takeuti, nº 2487, Conj. 3, Taboão da Serra/SP, 06775-003"
     address_details: svg/min/logo.svg
 
 # Social settings
@@ -45,7 +45,7 @@ skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © Oliveira e Alves Advocacia - All rights reserved
 
 # Build settings
 markdown: kramdown
@@ -61,5 +61,5 @@ exclude: [
 ]
 
 # Theme Settings
-analytics: 
+analytics:
 google_verification:
