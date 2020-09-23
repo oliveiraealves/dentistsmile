@@ -12,7 +12,7 @@ hero:
     hero_description: "ssessoria Jurídica"
 
 # Contact form
-api_token: # Enter API token here
+api_token: b1291c072b839b5d24d741827cf930ee # Enter API token here
 
 # Contact info
 contact:
