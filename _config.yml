@@ -9,7 +9,7 @@ logo_url: svg/min/logo.png
 hero:
     hero_img: hero.jpg
     hero_title: Oliveira e Alves Advocacia
-    hero_description: "ssessoria Jurídica"
+    hero_description: "Assessoria Jurídica"
 
 # Contact form
 api_token: b1291c072b839b5d24d741827cf930ee # Enter API token here
