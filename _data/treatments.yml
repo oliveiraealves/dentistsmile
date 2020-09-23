@@ -1,23 +1,23 @@
-- icon: icon-user-md
-  title: Invisible braces
+- icon: icon-clock-o
+  title: Direito Previdenciário
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+
+- icon: icon-group
+  title: Direito Trabalhista
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+
+- icon: icon-heart-o
+  title: Direito de Família
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+- icon: icon-chain
+  title: Direito do Consumidor
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
 
 - icon: icon-diamond
-  title: Cosmetic Dentistry
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
-
-- icon: icon-flask
-  title: Stain removal
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-
-- icon: icon-globe
-  title: Dentures
+  title: Direito Imobiliário
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
 
 - icon: icon-ambulance
-  title: Emergency Calls
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
-
-- icon: icon-bed
-  title: Sedation
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  title: Direito à Saúde
+  description: 'É a ambulância, besta!'

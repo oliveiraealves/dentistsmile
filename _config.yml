@@ -3,7 +3,7 @@ title: "Oliveira e Alves Advocacia | Assessoria Jurídica"
 description: "Oliveira e Alves Advocacia | Assessoria Jurídica"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: svg/min/logo.svg
+logo_url: svg/min/logo.png
 
 # Hero
 hero:
@@ -16,10 +16,12 @@ api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: +55 11 95964-3135
-    emergency: +55 11 95964-3135
+    phone: (11) 95964-3135
+    emergency: (11) 95964-3135
     email: oliveiraealves@gmail.com
-    address: "Estr. Kizaemon Takeuti, nº 2487, Conj. 3, Taboão da Serra/SP, 06775-003"
+    address_line1: "Estr. Kizaemon Takeuti, nº 2487, Conj. 3"
+    address_line2: "Pq. São Joaquim, Taboão da Serra/SP"
+    address_line3: "CEP 06775-003"
 
 # Opening hours
 monday_friday: "9:00 às 12:00 e 13:00 às 18:00"
@@ -30,12 +32,6 @@ monday_friday: "9:00 às 12:00 e 13:00 às 18:00"
 testimonials:
     testimonials_img: parallax.jpg
 
-# Map
-map:
-    zoom: 17
-    address: "Estr. Kizaemon Takeuti, nº 2487, Conj. 3, Taboão da Serra/SP, 06775-003"
-    address_details: svg/min/logo.svg
-
 # Social settings
 facebook: http://facebook.com
 twitter: http://twitter.com
@@ -45,7 +41,7 @@ skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © Oliveira e Alves Advocacia - All rights reserved
+copyright: © Oliveira e Alves Advocacia - Todos os direitos reservados
 
 # Build settings
 markdown: kramdown

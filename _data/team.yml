@@ -1,34 +1,29 @@
-- name: Britta Perry AAAA
-  image: team.jpg
+- name: Direito Previdenciário
+  image: previdenciario.jpg
   email: email@gmail.com
   phone: 9659 43 21
 
-- name: Troy Barnes
-  image: team.jpg
+- name: Direito Trabalhista
+  image: trabalhista.jpg
   email: email@gmail.com
   phone: 9659 43 21
 
-- name: Annie
-  image: team.jpg
+- name: Direito de Família
+  image: familia.jpg
   email: email@gmail.com
   phone: 9659 43 21
 
-- name: Jeff Winger
-  image: team.jpg
+- name: Direito do Consumidor
+  image: consumidor.jpg
   email: email@gmail.com
   phone: 9659 43 21
 
-- name: Britta Perry
-  image: team.jpg
+- name: Direito Imobiliário
+  image: imobiliario.jpg
   email: email@gmail.com
   phone: 9659 43 21
 
-- name: Troy Barnes
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Annie
-  image: team.jpg
+- name: Direito à Saúde
+  image: saude.jpg
   email: email@gmail.com
   phone: 9659 43 21

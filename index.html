@@ -14,23 +14,23 @@ layout: default
     </div>
 
     <div class="container-fluid">
-        
+
         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Make an Appointment</h3>
+            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Entre em contato</h3>
             <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
                 <div class="form-field">
-                    <input name="name" type="text" placeholder="Name" required>
+                    <input name="name" type="text" placeholder="Nome" required>
                 </div>
                 <div class="form-field">
-                    <input name="phone" type="tel" placeholder="Phone" required>
+                    <input name="phone" type="tel" placeholder="Telefone" required>
                 </div>
                 <div class="form-field">
                     <input name="email" type="email" placeholder="Email" required>
                 </div>
                 <div class="form-field">
-                    <textarea name="comments" placeholder="Message" required></textarea>
+                    <textarea name="comments" placeholder="Descreva seu problema sem compromisso. Entraremos em contato assim que possível" required></textarea>
                 </div>
-                <input type="submit" class="btn btn-default" value="Send">
+                <input type="submit" class="btn btn-default" value="Enviar">
             </form>
         </div>
 
@@ -42,28 +42,28 @@ layout: default
 <div class="three-shade-col">
     <div class="col-sm-4">
         <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-        <h3>Contact Us</h3>
+        <h3>Contato</h3>
         <ul>
-            {% if site.contact.phone %}<li><strong>Phone:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
+            {% if site.contact.phone %}<li><strong>Telefone:</strong> {{ site.contact.phone }}</li>{% endif %}
+            {% if site.contact.emergency %}<li><strong>WhatsApp:</strong> {{ site.contact.emergency }}</li>{% endif %}
             {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
         </ul>
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-        <h3>Opening Hours</h3>
+        <h3>Horário de Atendimento</h3>
         <table>
             <tbody>
                 <tr>
-                    <td>Monday – Friday</td>
+                    <td>Segunda à Sexta</td>
                     <td>{{ site.monday_friday }}</td>
                 </tr>
                 <tr>
-                    <td>Saturday</td>
+                    <td></td>
                     <td>{{ site.saturday }}</td>
                 </tr>
                 <tr>
-                    <td>Sunday</td>
+                    <td></td>
                     <td>{{ site.sunday }}</td>
                 </tr>
             </tbody>
@@ -71,9 +71,11 @@ layout: default
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-        <h3>Location</h3>
+        <h3>Endereço</h3>
             <p>
-                {{ site.contact.address }}
+                {{ site.contact.address_line1 }}<br />
+                {{ site.contact.address_line2 }}<br />
+                {{ site.contact.address_line3 }}
             </p>
     </div>
 </div>
@@ -82,17 +84,17 @@ layout: default
 <!-- Start About -->
 <div id="about" class="about">
     <div class="container-fluid">
-        <h2 class="section-title">About Us</h2>
+        <h2 class="section-title">O Escritório</h2>
 
         <div class="row">
             <div class="col-sm-6">
-                <h3>Welcome to DentistSmile</h3>
+                <h3>Oliveira e Alves Advocacia</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nostrum ab vero temporibus magnam, delectus!</p>
 
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
+                            <svg class="icon icon-briefcase"><use xlink:href="#icon-briefcase"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
@@ -103,7 +105,7 @@ layout: default
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-medkit"><use xlink:href="#icon-medkit"></use></svg>
+                            <svg class="icon icon-group"><use xlink:href="#icon-group"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
@@ -114,7 +116,7 @@ layout: default
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
+                            <svg class="icon icon-comments"><use xlink:href="#icon-comments"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
@@ -133,7 +135,7 @@ layout: default
 <!-- Start Treatments -->
 <div id="treatments" class="treatments">
     <div class="container-fluid">
-        <h2 class="section-title">Treatments</h2>
+        <h2 class="section-title">Áreas de Atuação</h2>
 
         <div class="row">
             {% for treatment in site.data.treatments %}
@@ -151,8 +153,8 @@ layout: default
 <!-- End Treatments -->
 
 <!-- Start Our team -->
-<div id="team" class="team"> 
-    <h2 class="section-title">Our Team</h2> 
+<div id="team" class="team">
+    <!-- <h2 class="section-title">Our Team</h2> -->
     <div id="team-carousel">
     {% for member in site.data.team %}
         <div class="expandable-box">
@@ -198,8 +200,8 @@ layout: default
 
 <!-- Start Gallery -->
 <div id="gallery" class="gallery">
-        
-    <h2 class="section-title">Gallery</h2>
+
+    <h2 class="section-title">Conheça o Escritório</h2>
 
     {% for images in site.data.gallery %}
         <a href="{{ site.baseurl }}/img/gallery/large/{{ images.image_large }}" class="gallery-item expandable-box image-link">
@@ -216,5 +218,29 @@ layout: default
 <!-- End Gallery -->
 
 <!-- Start Map -->
-<div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
+<div id="location">
+
+  <style>
+      .google-maps {
+          position: relative;
+          /* padding-bottom: 34%; // This is the aspect ratio */
+          height: 450;
+          /* overflow: hidden; */
+      }
+      .google-maps iframe {
+          position: relative;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          width: 100% !important;
+      }
+  </style>
+
+
+
+<div class="google-maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.0098001043157!2d-46.80192668543962!3d-23.639820070378462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce549c6a5622a5%3A0x21bb68eae9bb74fa!2sEstr.%20Kizaemon%20Takeuti%2C%202487%20-%20Parque%20Sao%20Joaquim%2C%20Tabo%C3%A3o%20da%20Serra%20-%20SP%2C%2006775-003!5e0!3m2!1sen!2sbr!4v1600876831309!5m2!1sen!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
 <!-- End Map -->
+
+</div>

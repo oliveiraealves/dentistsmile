@@ -10,7 +10,7 @@ module.exports = function (grunt) {
             dist: {
                 src: ['js/bootstrap.js', 'js/owl.carousel.js', 'js/jquery.magnific-popup.js', 'js/gmap3.js', 'js/custom.js'],
                 dest: 'js/all.js'
-            } 
+            }
         },
 
         uglify: {
@@ -27,7 +27,7 @@ module.exports = function (grunt) {
                     outputStyle: 'compressed'
                 },
                 files: {
-                    'css/main-unprefixed.css' : '_scss/main.scss'
+                    'css/main.css' : '_scss/main.scss'
                 }
             }
         },
@@ -46,7 +46,7 @@ module.exports = function (grunt) {
 
             jekyllBuild : {
                 command : 'jekyll build'
-            }  
+            }
         },
 
         svgmin: {
