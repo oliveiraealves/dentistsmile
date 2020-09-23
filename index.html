@@ -55,7 +55,8 @@ layout: default
             <p>
                 {{ site.contact.address_line1 }}<br />
                 {{ site.contact.address_line2 }}<br />
-                {{ site.contact.address_line3 }}
+                {{ site.contact.address_line3 }}<br />
+                * {{ site.contact.address_line4 }}
             </p>
     </div>
     <div class="col-sm-4">
@@ -89,7 +90,7 @@ layout: default
         <div class="row">
             <div class="col-sm-6">
                 <h3>Oliveira e Alves Advocacia</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nostrum ab vero temporibus magnam, delectus!</p>
+                <p>Nosso escritório se diferencia pelos valores e padrões de ética, respeito, dedicação, dignidade e lealdade. Nossa missão é encontrar a melhor solução jurídica possível para os problemas dos nossos clientes.</p>
 
                 <div class="media">
                     <div class="media-left">
@@ -98,7 +99,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>Dispomos de toda a estrutura necessária ao perfeito exercício da advocacia, atuando sempre com eficiência, seriedade, credibilidade e transparência.</p>
                     </div>
                 </div>
 
@@ -109,7 +110,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>O escritório é composto por uma equipe de advogados altamente qualificada, assistentes, estagiários e parceiros em todo o país.</p>
                     </div>
                 </div>
 
@@ -120,7 +121,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>Nosso escritório foi fundado com o propósito de atender os clientes de forma pessoal e dedicada, focando em suprir todas as necessidades jurídicas do cliente.</p>
                     </div>
                 </div>
             </div>
@@ -139,11 +140,11 @@ layout: default
 
         <div class="row">
             {% for treatment in site.data.treatments %}
-                <div class="col-sm-6 col-md-4">
-                    <div class="icon-box">
+                <div class="col-sm-6 col-md-4" >
+                    <div class="icon-box" style="text-align: left;">
                         <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
                         <h4>{{ treatment.title }}</h4>
-                        <p>{{ treatment.description }}</p>
+                        <p>{{ treatment.description | markdownify }}</p>
                     </div>
                 </div>
             {% endfor %}
@@ -264,7 +265,8 @@ layout: default
               <p>
                   {{ site.contact.address_line1 }}<br />
                   {{ site.contact.address_line2 }}<br />
-                  {{ site.contact.address_line3 }}
+                  {{ site.contact.address_line3 }}<br />
+                  * {{ site.contact.address_line4 }}
               </p>
       </div>
       <div class="col-sm-4">

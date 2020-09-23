@@ -1,23 +1,178 @@
 - icon: icon-clock-o
   title: Direito Previdenciário
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: "Atuamos na defesa dos clientes nos casos de benefícios negados ou interrompido pelo INSS, com extensas possibilidades de reverter à decisão tanto no âmbito administrativo quanto no judicial.
+
+                * Aposentadoria por idade
+
+                * Aposentadoria por invalidez
+
+                * Aposentadoria especial
+
+                * Aposentadoria por tempo de contribuição
+
+                * Revisão
+
+                * Cálculo previdenciário (cálculo do tempo de serviço e do valor do benefício)
+
+                * Planejamento Previdenciário
+
+                * Auxílio-doença
+
+                * Auxílio-acidente
+
+                * Pensão Por morte
+
+                * Assistência Social BPC - LOAS
+
+                * Salário-maternidade
+
+                * Entre outros assuntos envolvendo o Direito Previdenciário"
 
 - icon: icon-group
   title: Direito Trabalhista
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: "Atuamos na defesa dos trabalhadores e seus direitos trabalhistas.
+
+                * Cálculo Trabalhista das Verbas Rescisórias
+
+                * Reclamações Trabalhistas
+
+                * Mulher gestante – Estabilidade no emprego
+
+                * Aviso-Prévio
+
+                * Férias
+
+                * Décimo Terceiro Salário
+
+                * FGTS
+
+                * Seguro desemprego
+
+                * Horas Extras e adicional noturno
+
+                * Domingos trabalhados e Feriados
+
+                * Insalubridade, periculosidade, PPP e LTCAT
+
+                * Acidentes de trabalho
+
+                * Indenização Por Assédio Moral e Sexual
+
+                * Demissão Por Justa Causa
+
+                * Entre outros assuntos envolvendo o Direito do Trabalho"
 
 - icon: icon-heart-o
-  title: Direito de Família
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  title: Direito de Família e Sucessão
+  description: 'Atuamos na orientação, condução e resolução de pendências relativas à dissolução do matrimônio ou da união estável, tanto na esfera judicial quanto na extrajudicial. Assim, como em inventários e partilhas de bens.
+
+                * Divórcio e Dissolução de União Estável
+
+                * Guarda Compartilhada e Regulamentação de Visitas
+
+                * Pensão Alimentícia
+
+                * Exoneração de Alimentos
+
+                * Reconhecimento de paternidade
+
+                * Retificação de Registro
+
+                * Orientação em relação ao regime de bens
+
+                * Direito de herança
+
+                * Composição entre herdeiros e condução da respectiva partilha em inventário.
+
+
+                * Planejamento sucessório objetivando a preservação e a perpetuação do patrimônio familiar.'
 
 - icon: icon-chain
   title: Direito do Consumidor
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: 'Atuamos na área de Direito Consumidor visando coibir práticas comerciais abusivas e ilícitas, propondo ações visando a indenização por danos materiais e morais, com ênfase nas seguintes áreas:
+
+                * Inscrições indevidas no SERASA/SPC
+
+                * Juros abusivos em contratos bancários
+
+                * Ressarcimento de valores pagos em Busca e Apreensão de Veículos
+
+                * Problemas em compras feitas pela Internet e estabelecimentos comerciais
+
+                * Produtos não entregues ou serviços não prestados
+
+                * Entrega de produtos com vício ou defeito
+
+                * Cobranças Indevidas
+
+                * Propaganda enganosa ou abusiva
+
+                * Contratos de planos de saúde
+
+                * Atraso em Voo, extravio de bagagens e OverBooking
+
+                * Multas Decorrentes da Venda de Veículo
+
+                * Entre outros assuntos envolvendo o Direito do Consumidor'
 
 - icon: icon-diamond
   title: Direito Imobiliário
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: 'Atuamos na orientação e assessoramento na área imobiliária.
+
+                * Contratos de compra e venda de imóveis e Rescisão da compra com ressarcimento de valores pagos
+
+                * Ação de desistência e arrependimento na compra de imóvel novo
+
+                * Atraso na entrega de obra
+
+                * Ação revisional de aluguel, direito de condomínio
+
+                * Ação renovatória de locação comercial
+
+                * Ação de despejo com liminar
+
+                * Inadimplemento imobiliário, reintegração de posse, desapropriação
+
+                * Aquisição de imóveis e incorporação imobiliária
+
+                * Assessoria em investimentos imobiliários
+
+                * Taxas SATI e corretagem
+
+                * Leilões judiciais, leilões extrajudiciais
+
+                * Alienação fiduciária
+
+                * Usucapião
+
+                * Responsabilidade civil por defeitos da obra e indenizações imobiliárias'
 
 - icon: icon-ambulance
-  title: Direito à Saúde
-  description: 'É a ambulância, besta!'
+  title: Direito Médico e da Saúde
+  description: 'Atuamos nas ações que visam coibir os abusos dos planos de saúde e seguro-saúde.
+
+                * Negativa de cobertura do plano de saúde
+
+                * Negativa de cirurgias, próteses, órteses e medicamentos
+
+                * Negativa de cirurgia bariátrica e cirurgia plástica reparadora
+
+                * Atendimentos de urgência e emergência
+
+                * Direito aos ex-empregados e aposentados
+
+                * Revisão do percentual de reajuste abusivo do plano de saúde
+
+                * Ações contra a exigência de cheque-caução
+
+                * Erro Médico
+
+                * Internações em home care
+
+                * Cancelamento de contrato de plano de saúde
+
+                * Limitação indevida do tempo de internação
+
+                * Mudança de categoria do plano
+
+                * Problemas com a Rede credenciada'

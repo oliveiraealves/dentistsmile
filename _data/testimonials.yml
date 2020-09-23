@@ -1,11 +1,22 @@
-- name: Seu Madruga
-  description: A vingança nunca é plena, mata a alma e a envenena
-  title: Vila do Chaves, 73
+- name: Constituição Federal
+  description: 'Art. 5º. Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade (...)'
+  title: 1988
 
-- name: Jeff Winger
-  description: Let's do what people do. Let's get a house we can't afford and a dog that makes us angry.
-  title: Law Professor - Greendale
+- name: Constituição Federal
+  description: 'Art. 7º São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social:
+I - relação de emprego protegida contra despedida arbitrária ou sem justa causa, nos termos de lei complementar, que preverá indenização compensatória, dentre outros direitos; (...)
+VII - garantia de salário, nunca inferior ao mínimo, para os que percebem remuneração variável; '
+  title: 1988
 
-- name: Jeff Winger
-  description: There already was a rating system in place, it was called 'Cool People Get More,' and it was working fine.
-  title: Law Professor - Greendale
+- name: Constituição Federal
+  description: 'Art. 194. A seguridade social compreende um conjunto integrado de ações de iniciativa dos Poderes Públicos e da sociedade, destinadas a assegurar os direitos relativos à saúde, à previdência e à assistência social. '
+  title: 1988
+
+- name: Constituição Federal
+  description: 'Art. 203. A assistência social será prestada a quem dela necessitar, independentemente de contribuição à seguridade social, e tem por objetivos:
+I - a proteção à família, à maternidade, à infância, à adolescência e à velhice;
+II - o amparo às crianças e adolescentes carentes;
+III - a promoção da integração ao mercado de trabalho;
+IV - a habilitação e reabilitação das pessoas portadoras de deficiência e a promoção de sua integração à vida comunitária;
+V - a garantia de um salário mínimo de benefício mensal à pessoa portadora de deficiência e ao idoso que comprovem não possuir meios de prover à própria manutenção ou de tê-la provida por sua família, conforme dispuser a lei.'
+  title: 1988
