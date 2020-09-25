@@ -34,7 +34,7 @@
     ul {
         @extend %no-bullet;
     }
-    a {
+    a:link, a:visited {
         color: $white;
         text-decoration: none;
         &:hover, &:focus {
