@@ -34,13 +34,6 @@
     ul {
         @extend %no-bullet;
     }
-    a:link, a:visited {
-        color: $white;
-        text-decoration: none;
-        &:hover, &:focus {
-            text-decoration: underline;
-        }
-    }
     table {
         @extend %align-left;
         width: 100%;
