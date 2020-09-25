@@ -45,7 +45,7 @@ layout: default
         <h3>Contato</h3>
         <ul>
             {% if site.contact.phone %}<li><img width='15px' src='{{site.baseurl}}/img/redes/phone.png'> <strong>Telefone:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.emergency %}<li><img width='15px' src='{{site.baseurl}}/img/redes/whatsapp.png'> <strong>WhatsApp:</strong> {{ site.contact.emergency }}</li>{% endif %}
+            {% if site.contact.emergency %}<li><img width='15px' src='{{site.baseurl}}/img/redes/whatsapp.png'> <strong>WhatsApp:</strong> <a href="https://wa.me/{{site.contact.whatsapp}}">{{ site.contact.whatsapp }}</a></li>{% endif %}
             {% if site.contact.email %}<li><strong><img width='15px' src='{{site.baseurl}}/img/redes/email.png'> Email:</strong> {{ site.contact.email }}</li>{% endif %}
         </ul>
     </div>
@@ -255,7 +255,7 @@ layout: default
           <h3>Contato</h3>
           <ul>
             {% if site.contact.phone %}<li><img width='15px' src='{{site.baseurl}}/img/redes/phone.png'> <strong>Telefone:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.emergency %}<li><img width='15px' src='{{site.baseurl}}/img/redes/whatsapp.png'> <strong>WhatsApp:</strong> {{ site.contact.emergency }}</li>{% endif %}
+            {% if site.contact.emergency %}<li><img width='15px' src='{{site.baseurl}}/img/redes/whatsapp.png'> <strong>WhatsApp:</strong> <a href="https://wa.me/{{site.contact.whatsapp}}">{{ site.contact.whatsapp }}</a></li>{% endif %}
             {% if site.contact.email %}<li><strong><img width='15px' src='{{site.baseurl}}/img/redes/email.png'> Email:</strong> {{ site.contact.email }}</li>{% endif %}
           </ul>
       </div>
