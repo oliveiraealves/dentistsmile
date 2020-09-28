@@ -1,6 +1,6 @@
 - icon: icon-clock-o
   title: Direito Previdenciário
-  description: "Somos especilizados em Direito Previdenciário. Atuamos na defesa dos clientes nos casos de benefícios negados ou interrompido pelo INSS, com extensas possibilidades de reverter à decisão tanto no âmbito administrativo quanto no judicial. Atuamos em todas as ações contra o INSS.
+  description: "Somos especializados em Direito Previdenciário. Atuamos na defesa dos clientes nos casos de benefícios negados ou interrompido pelo INSS, com extensas possibilidades de reverter a decisão tanto no âmbito administrativo quanto no judicial. Atuamos em todas as ações contra o INSS.
 
                 * Aposentadoria por idade
 
@@ -12,7 +12,7 @@
 
                 * Revisão
 
-                * Cálculo previdenciário (cálculo do tempo de serviço e do valor do benefício)
+                * Cálculo Previdenciário (cálculo do tempo de serviço e do valor do benefício)
 
                 * Planejamento Previdenciário e Acerto de CNIS
 
@@ -20,19 +20,19 @@
 
                 * Auxílio-acidente
 
-                * Pensão Por morte
+                * Pensão Por Morte
 
-                * Assistência Social BPC - LOAS
+                * BPC-LOAS Assistência Social
 
                 * Salário-maternidade
 
                 * Entre outros assuntos envolvendo o Direito Previdenciário"
 
 - icon: icon-group
-  title: Direito Trabalhista
+  title: Direito do Trabalho
   description: "Atuamos na defesa dos trabalhadores e seus direitos trabalhistas.
 
-                * Cálculo Trabalhista das Verbas Rescisórias
+                * Cálculo Trabalhista das verbas rescisórias
 
                 * Reclamações Trabalhistas
 
@@ -48,13 +48,13 @@
 
                 * Seguro desemprego
 
-                * Horas Extras e adicional noturno
+                * Horas Extras e Adicional Noturno
 
                 * Domingos trabalhados e Feriados
 
-                * Insalubridade, periculosidade, PPP e LTCAT
+                * Insalubridade, Periculosidade, PPP e LTCAT
 
-                * Acidentes de trabalho e Estabilidade Acidentária
+                * Acidentes de Trabalho e Estabilidade Acidentária
 
                 * Indenização Por Assédio Moral e Sexual
 
@@ -64,7 +64,7 @@
 
 - icon: icon-heart-o
   title: Direito de Família e Sucessão
-  description: 'Atuamos na orientação, condução e resolução de pendências relativas à dissolução do matrimônio ou da união estável, tanto na esfera judicial quanto na extrajudicial. Assim, como em inventários e partilhas de bens.
+  description: 'Atuamos na orientação, condução e resolução de pendências relativas à dissolução do matrimônio ou da união estável, tanto na esfera judicial quanto na extrajudicial. Bem como em inventários judiciais, extrajudiciais e partilhas de bens.
 
                 * Divórcio e Dissolução de União Estável
 
@@ -74,7 +74,7 @@
 
                 * Exoneração de Alimentos
 
-                * Reconhecimento de paternidade
+                * Reconhecimento de Paternidade
 
                 * Retificação de Registro
 
@@ -82,14 +82,13 @@
 
                 * Direito de herança
 
-                * Composição entre herdeiros e condução da respectiva partilha em inventário.
+                * Composição entre herdeiros e condução da respectiva partilha em inventário
 
-
-                * Planejamento sucessório objetivando a preservação e a perpetuação do patrimônio familiar.'
+                * Planejamento sucessório objetivando a preservação e a perpetuação do patrimônio familiar'
 
 - icon: icon-chain
   title: Direito do Consumidor
-  description: 'Atuamos na área de Direito Consumidor visando coibir práticas comerciais abusivas e ilícitas, propondo ações visando a indenização por danos materiais e morais, com ênfase nas seguintes áreas:
+  description: 'Atuamos na área de Direito do Consumidor visando coibir práticas comerciais abusivas e ilícitas, propondo ações de indenização por danos materiais e morais, com ênfase nas seguintes áreas:
 
                 * Inscrições indevidas no SERASA/SPC
 
@@ -111,41 +110,9 @@
 
                 * Atraso em Voo, extravio de bagagens e OverBooking
 
-                * Multas Decorrentes da Venda de Veículo
+                * Multas decorrentes da Venda de Veículo
 
                 * Entre outros assuntos envolvendo o Direito do Consumidor'
-
-- icon: icon-diamond
-  title: Direito Imobiliário
-  description: 'Atuamos na orientação e assessoramento na área imobiliária.
-
-                * Contratos de compra e venda de imóveis e Rescisão da compra com ressarcimento de valores pagos
-
-                * Ação de desistência e arrependimento na compra de imóvel novo
-
-                * Atraso na entrega de obra
-
-                * Ação revisional de aluguel, direito de condomínio
-
-                * Ação renovatória de locação comercial
-
-                * Ação de despejo com liminar
-
-                * Inadimplemento imobiliário, reintegração de posse, desapropriação
-
-                * Aquisição de imóveis e incorporação imobiliária
-
-                * Assessoria em investimentos imobiliários
-
-                * Taxas SATI e corretagem
-
-                * Leilões judiciais, leilões extrajudiciais
-
-                * Alienação fiduciária
-
-                * Usucapião
-
-                * Responsabilidade civil por defeitos da obra e indenizações imobiliárias'
 
 - icon: icon-ambulance
   title: Direito Médico e da Saúde
@@ -176,3 +143,35 @@
                 * Mudança de categoria do plano
 
                 * Problemas com a Rede credenciada'
+
+- icon: icon-diamond
+  title: Direito Imobiliário
+  description: 'Atuamos na orientação e assessoramento na área imobiliária.
+
+                * Contratos de compra e venda de imóveis e Rescisão da compra com ressarcimento de valores pagos
+
+                * Ação de desistência e arrependimento na compra de imóvel novo
+
+                * Atraso na entrega de obra/chaves
+
+                * Ação revisional de aluguel, direito de condomínio
+
+                * Ação renovatória de locação comercial
+
+                * Ação de despejo com liminar
+
+                * Inadimplemento imobiliário, reintegração de posse, desapropriação
+
+                * Aquisição de imóveis e incorporação imobiliária
+
+                * Assessoria em investimentos imobiliários
+
+                * Taxas SATI e corretagem
+
+                * Leilões judiciais, leilões extrajudiciais
+
+                * Alienação fiduciária
+
+                * Usucapião
+
+                * Responsabilidade civil por defeitos da obra e indenizações imobiliárias'
