@@ -1,5 +1,7 @@
-# DentistSmile - Jekyll Theme
+# Oliveira e Alves Advocacia
 
-A single page Jekyll theme for dental clinics. It's easily customizable and responsive. It comes with svg icons, google map and a working contact form. Docs can be found [here](http://obaez.com/dentistsmile-docs/).
+Desenvolvido por [luizeleno](https://github.com/luizeleno)
 
-Here is a [live Demo](http://obaez.com/dentistsmile/)
+Acesse o website em <www.oliveiraealvesadvocacia.com.br>
+
+O modelo original é encontrado em <https://github.com/obaez/dentistsmile>
