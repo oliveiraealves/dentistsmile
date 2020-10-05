@@ -136,26 +136,6 @@ layout: default
 </div>
 <!-- End About -->
 
-<!-- Start Treatments -->
-<div id="treatments" class="treatments">
-    <div class="container-fluid">
-        <h2 class="section-title">Áreas de Atuação</h2>
-
-        <div class="row">
-            {% for treatment in site.data.treatments %}
-                <div class="col-sm-6 col-md-4" >
-                    <div class="icon-box" style="text-align: left;">
-                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
-                        <h4>{{ treatment.title }}</h4>
-                        <p>{{ treatment.description | markdownify }}</p>
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
-</div>
-<!-- End Treatments -->
-
 <!-- Start Our team -->
 <div id="team" class="team">
     <h2 class="section-title">Especialidades</h2>
@@ -177,6 +157,26 @@ layout: default
     </div>
 </div>
 <!-- End Our team -->
+
+<!-- Start Treatments -->
+<div id="treatments" class="treatments">
+    <div class="container-fluid">
+        <h2 class="section-title">Áreas de Atuação</h2>
+
+        <div class="row">
+            {% for treatment in site.data.treatments %}
+                <div class="col-sm-6 col-md-4" >
+                    <div class="icon-box" style="text-align: left;">
+                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
+                        <h4>{{ treatment.title }}</h4>
+                        <p>{{ treatment.description | markdownify }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- End Treatments -->
 
 <!-- Start Testimonials -->
 <div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
