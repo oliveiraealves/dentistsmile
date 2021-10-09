@@ -1,14 +1,14 @@
 # Site settings
-title: "Oliveira e Alves Advocacia | Assessoria Jurídica"
-description: "Oliveira e Alves Advocacia | Assessoria Jurídica"
+title: "Oliveira e Borges Advocacia | Assessoria Jurídica"
+description: "Oliveira e Borges Advocacia | Assessoria Jurídica"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: img/logoazul.png
+logo_url: img/OLIVEIRABORGESADVOCACIA.jpg
 
 # Hero
 hero:
     hero_img: hero.jpg
-    hero_title: Oliveira e Alves Advocacia
+    hero_title: Oliveira e Borges Advocacia
     hero_description: "Assessoria Jurídica"
 
 # Contact form
@@ -18,7 +18,7 @@ api_token: b1291c072b839b5d24d741827cf930ee # Enter API token here
 contact:
     phone: (11) 4138-5220
     whatsapp: 5511986882944
-    email: contato@oliveiraealvesadvocacia.com.br
+    email: oliveiraeborgesadvocacia@gmail.com
     address_line1: "Estr. Kizaemon Takeuti, nº 2487, Sala 3"
     address_line2: "Pq. São Joaquim, Taboão da Serra/SP"
     address_line3: "CEP 06775-003"
@@ -43,7 +43,7 @@ skype:
 feed: no
 
 # Footer
-copyright: © Oliveira e Alves Advocacia - Todos os direitos reservados
+copyright: © Oliveira e Borges Advocacia - Todos os direitos reservados
 
 # Build settings
 markdown: kramdown
